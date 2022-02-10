@@ -2,13 +2,15 @@
 <html lang="Default">
   <head>
     <meta charset="utf-8" />
-    <!-- mots clés non pertinents -->
     <meta
       name="keywords"
       content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design"
     />
     <!-- balise importante a renseigner -->
-    <meta name="description" content="" />
+    <meta
+      name="description"
+      content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -28,7 +30,7 @@
     <script src="js/gmaps.js"></script>
 
     <!-- probleme de titre -->
-    <title>.</title>
+    <title>La chouette agence</title>
 
     <!-- Analytics -->
 
@@ -37,30 +39,34 @@
   <body>
     <!-- Principal conteneur -->
     <!-- il devrait s'agir d'une balise main -->
-    <div class="page-container">
+    <!-- debut de travail d indentation -->
+    <main class="page-container">
       <!-- bloc-0 -->
       <!-- il devrait s'agir d'une balise header -->
-      <div class="bloc bgc-white l-bloc" id="bloc-0">
+      <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <!-- tres drole, à creuser -->
-              <div class="keywords" style="color: #cccccc; font-size: 1px">
+              <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
                 Agence web à paris, stratégie web, web design, illustrations,
                 design de site web, site web, web, internet, site internet, site
-              </div>
-              <!-- text alternatif horrible pour les malvoyants -->
-              <!-- imaginez siri 8bits qui vous lit toutes les balises + texts alternatifs sans ponctuation dans la voix -->
-              <a class="navbar-brand" href="index.html"
-                ><img
+              </div> -->
+
+              <a class="navbar-brand" href="index.html">
+                <!-- text alternatif horrible pour les malvoyants -->
+                <!-- -->
+                <img
                   src="img/la-chouette-agence.png"
-                  alt="paris web design logo agence web meilleure agence"
+                  alt="La chouette agence, agence web paris, création logo paris"
                   height="40"
               /></a>
+              <!--               
               <div class="keywords" style="color: #cccccc; font-size: 1px">
                 Agence web à paris, stratégie web, web design, illustrations,
                 design de site web, site web, web, internet, site internet, site
-              </div>
+              </div> -->
+
+              <!-- toggle navigation? -->
               <button
                 id="nav-toggle"
                 type="button"
@@ -81,17 +87,18 @@
                 <li></li>
                 <li>
                   <!-- nom de page non pertient -->
-                  <a href="page2.html">page2 &gt;</a>
+                  <a href="contact.html">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-      </div>
+      </header>
       <!-- bloc-0 END -->
 
       <!-- bloc-1-presentation -->
-      <div
+      <!-- correction de balise -->
+      <section
         class="
           bloc
           bgc-dark-slate-blue
@@ -107,6 +114,8 @@
         <div class="container bloc-lg">
           <div class="row tight-width-whitespace">
             <div class="col-sm-12">
+              <!-- style dans la page -->
+              <!-- text alt -->
               <img
                 src="img/logo.png"
                 class="center-block image-resize-mode"
@@ -117,6 +126,7 @@
                 La chouette agence.
               </h1>
               <div class="text-center">
+                <!-- changement du nom de page -->
                 <a
                   href="page2.html"
                   class="
@@ -131,18 +141,24 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-1-presentation END -->
 
       <!-- bloc-2-services -->
-      <div class="bloc bgc-white l-bloc" id="bloc-2-services">
+      <!-- changement de balise -->
+      <section class="bloc bgc-white l-bloc" id="bloc-2-services">
         <div class="container bloc-md">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <img
+              <h2>
+                La chouette agence est une agence de web design qui aide les
+                entreprises à devenir attractives et visibles sur Internet.
+              </h2>
+              <!-- retrait de l image et ajout d un h2 -->
+              <!-- <img
                 alt="agence web, agence web paris, web design paris, stratégie web"
                 src="img/title.png"
-              />
+              /> -->
             </div>
           </div>
           <div class="row voffset-lg med-width-whitespace">
@@ -206,18 +222,27 @@
           </div>
           <div class="row voffset-lg voffset">
             <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-              <img
+              <p>
+                "La chouette agence est une excellente agence web! Les web
+                designers ont réussi à capturer l'essence de notre entreprise et
+                à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes
+                en ligne à Lyon
+              </p>
+              <p>Maxime Guibard, PDG de A vous fourchettes</p>
+              <!-- retrait de l image et ajout d un text -->
+              <!-- <img
                 alt="agence web, agence web paris, web design paris, stratégie web"
                 src="img/citation.png"
-              />
+              /> -->
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-2-services END -->
 
       <!-- bloc-3-what-i-do -->
-      <div
+      <!-- changememt de balise -->
+      <section
         class="
           bloc
           tc-white
@@ -246,28 +271,33 @@
                 votre site, n’hésitez pas à nous contacter. Nous travaillerons
                 ensemble pour créer des sites beau et bien structurés, qui
                 seront facilement trouvable sur les moteurs de recherche.
-                <br /><br /><a class="ltc-white bold-link" href="page2.html"
+                <br /><br /><a class="ltc-white bold-link" href="contact.html"
                   >Contactez notre équipe</a
                 ><br />
               </p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-3-what-i-do END -->
 
       <!-- bloc-4-portfolio -->
-      <div
+      <section
         class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
         id="bloc-4-portfolio"
       >
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12 text-center">
-              <img
+              <h2>
+                Nous travaillons avec beaucoup de clients, voici nos
+                réalisations
+              </h2>
+              <!-- retrait de l image et ajout d un h2 -->
+              <!-- <img
                 alt="agence web, agence web paris, web design paris, stratégie web"
                 src="img/title2.png"
-              />
+              /> -->
             </div>
           </div>
           <div class="row tight-width-whitespace portfolio-row">
@@ -356,7 +386,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- bloc-4-portfolio END -->
 
       <!-- bloc-5-cta -->
@@ -491,7 +521,7 @@
         </div>
       </div>
       <!-- Footer - bloc-8 END -->
-    </div>
+    </main>
     <!-- Principal conteneur END -->
   </body>
 </html>
