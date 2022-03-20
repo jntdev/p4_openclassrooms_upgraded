@@ -5,7 +5,11 @@
     <meta charset="utf-8" />
 
     <!-- balise de mise en cache -->
-    <meta http-equiv="Cache-Control" content="max-age=31536000" />
+
+    <!-- retrait de la balise http-equiv, balise non compatible XML 1.0
+    les documentations invitent à ecrire ceci en .htaccess  -->
+    <!-- <meta http-equiv="Cache-control" content="public" /> -->
+
     <!-- balise importante a renseigner -->
     <meta
       name="description"
@@ -22,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <link rel="preload" as="font" />
+    <link rel="preload" href="/fonts/fontawesome-webfont.woff" as="font" />
 
     <script src="./js/jquery-2.1.0.js" defer></script>
     <script src="./js/bootstrap.js" defer></script>
